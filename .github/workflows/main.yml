@@ -35,7 +35,7 @@ jobs:
       - name: Run Automate Script
         run: |
           # Tambahkan python di depan dan gunakan tanda kutip jika ada spasi
-          python "preprocessing/automate_fildzah amalina.py"
+          python "preprocessing/automate_fildzah_amalina.py"
 
       - name: Commit and Push Changes
         run: |
